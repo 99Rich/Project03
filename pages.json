@@ -1,0 +1,170 @@
+{
+    "easycom": {
+    		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "618谷雨狂欢"
+			}
+		},
+	    {
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "精选宝贝"
+                // "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/case/case",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宝贝分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advance/advance",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "618提前购商品专区",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/leak/leak",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "199任选4件",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detailTW/detailTW",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order1/order1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pickup/pickup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/selected/selected",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detailDY/detailDY",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/detailCS/detailCS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detailIF/detailIF",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detailLS/detailLS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "微商城",
+		"navigationBarBackgroundColor": "#56b0ff",
+		"backgroundColor": "#56b0ff"
+	},
+    "tabBar": {
+        // "color": "",
+        "selectedColor": "#00aaff",
+        "list": [
+            {
+                "pagePath":"pages/index/index",
+                // "iconPath": "",
+                // "selectedIconPath": "",
+                "text":"首页"
+            },
+            {
+                "pagePath":"pages/list/list",
+                "text":"必买清单"
+            },
+            {
+                "pagePath":"pages/case/case",
+                "text":"宝贝分类"
+            },
+            {
+                "pagePath":"pages/info/info",
+                "text":"个人中心"
+            }
+        ]
+    }
+}
